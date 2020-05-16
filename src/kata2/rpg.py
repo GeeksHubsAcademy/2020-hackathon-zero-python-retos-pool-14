@@ -3,7 +3,7 @@
 import random 
 import string
 
-def RandomPasswordGenerator(passLen):
+def RandomPasswordGenerator(passLen=10):
     #
     #Genero una cadena con la suma de todos los posible valores, mayusculas, minusculas, numeros y caracteres
     valores = string.ascii_letters + string.digits + string.punctuation
@@ -16,4 +16,4 @@ def RandomPasswordGenerator(passLen):
     #
     return respuesta
 
-RandomPasswordGenerator(100)
+#RandomPasswordGenerator(100)
