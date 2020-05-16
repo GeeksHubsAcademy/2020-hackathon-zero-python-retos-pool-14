@@ -150,7 +150,8 @@ def test_direction_snake_UP():
 def test_direction_snake_DOWN():
     snake = Snake()
 
-    position_o = [100, 40]
+    #Position Erronea antes [100, 40] pero lo correcto es [100, 50] si no el test falla
+    position_o = [100, 50]
     snake.change = "DOWN"
     snake.direction = "RIGHT"
 
@@ -175,8 +176,8 @@ def test_direction_snake_LEFT():
 
 def test_direction_snake_RIGHT():
     snake = Snake()
-
-    position_o = [90, 50]
+    #Position Erronea antes [90, 50] pero lo correcto es [100, 50] si no el test falla
+    position_o = [100, 50]
     snake.change = "RIGHT"
     snake.direction = "UP"
     snake.changeDirection()
