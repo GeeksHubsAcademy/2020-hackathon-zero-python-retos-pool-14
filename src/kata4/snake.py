@@ -69,6 +69,7 @@ class Game():
             snake.body = snake.body[:-1]
         else:
             self.score += 1
+            self.food_spawn()
 
     # Mensajes de salida cuando el snake muere
     # Posición snake[0] >= 500 ó snake[0] <= 0                  -> Muere
