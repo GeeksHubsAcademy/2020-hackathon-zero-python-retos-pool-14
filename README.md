@@ -39,7 +39,6 @@ En caso de empate, atenderemos al orden de cola de ejecución del cliente de la 
 
 
 
-
 Este repositorio cumple con una solución 'Python' que se abre con 'Visual Studio Code'.
 Se han añadido los ficheros raiz del proyecto para su fácil uso en local.
 	- .vscode
